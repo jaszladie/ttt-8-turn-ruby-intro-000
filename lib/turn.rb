@@ -38,4 +38,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
+  loop do
+    if number_entered < 1 || number_entered > 9
+  end
 end
